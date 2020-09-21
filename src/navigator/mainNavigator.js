@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import Maps104864Navigator from '../features/Maps104864/navigator';
 import Settings104842Navigator from '../features/Settings104842/navigator';
 import Settings104827Navigator from '../features/Settings104827/navigator';
 import NotificationList104826Navigator from '../features/NotificationList104826/navigator';
@@ -17,6 +18,7 @@ import Maps104825Navigator from '../features/Maps104825/navigator';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+Maps104864: { screen: Maps104864Navigator },
 Settings104842: { screen: Settings104842Navigator },
 Settings104827: { screen: Settings104827Navigator },
 NotificationList104826: { screen: NotificationList104826Navigator },
